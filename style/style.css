@@ -35,10 +35,10 @@ section#telefone {
 
 iframe#tela {
     position: relative;
-    left: 19px;
-    top: 70px;
-    width: 234px;
-    height: 413px;
+    left: 18px;
+    top: 69px;
+    width: 236px;
+    height: 415px;
     
 }
 section#redes-sociais {
@@ -53,8 +53,8 @@ section#redes-sociais img {
     box-sizing: border-box; /* a borda ser parte do tamanho do objeto */
 }
 section#redes-sociais img:hover {
-    border: 2px solid rgba(255, 255, 255, 0.637);
-    transform: translate(-3px, -3px);
+    border: 1.5px solid rgba(255, 255, 255, 0.63);
+    transform: translate(-3px, -3px); /* mover para cima e para esquerda o objeto */
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.432);
-    transition: transform 0.3s, border 0.2s;
+    transition: transform 0.3s, border 0.2s; /* colocar tempo para ocorrer a animação */
 }
